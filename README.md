@@ -87,7 +87,7 @@ The results of the TOPSIS analysis are as follows:
 ### **Visualization**
 A bar plot showing the TOPSIS scores for each model:
 
-![TOPSIS Scores](topsis_scores.png)
+![TOPSIS Scores]([topsis_scores.png](https://github.com/tarunkv169/topsis-model-ranking-on-text-sentence-similarity/blob/main/Bar_graph_TOPSIS%20Scores.png?raw=true))
 
 ---
 
