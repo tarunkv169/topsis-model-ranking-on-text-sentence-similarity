@@ -15,6 +15,21 @@ Text sentence similarity is a critical task in natural language processing (NLP)
 This project:
 - Evaluates pre-trained models using TOPSIS.
 - Ranks models based on accuracy, inference time, and memory usage.
+-     ### **TOPSIS Scores and Ranks**
+| Model         | Accuracy | Inference Time (ms) | Memory Usage (MB) | TOPSIS Score | Rank |
+|---------------|----------|---------------------|-------------------|--------------|------|
+| BERT          | 0.92     | 120                 | 400               | 0.72         | 3    |
+| RoBERTa       | 0.94     | 150                 | 450               | 0.68         | 4    |
+| DistilBERT    | 0.89     | 80                  | 300               | 0.85         | 1    |
+| GPT-3         | 0.91     | 200                 | 500               | 0.65         | 5    |
+| Sentence-BERT | 0.95     | 90                  | 350               | 0.80         | 2    |
+
+### **Visualization**
+A bar plot showing the TOPSIS scores for each model:
+
+ <img src="https://github.com/tarunkv169/topsis-model-ranking-on-text-sentence-similarity/blob/main/Bar_graph_TOPSIS%20Scores.png?raw=true" width="70%" height="60%">
+
+---
 - Provides a clear and reproducible workflow.
 
 ---
